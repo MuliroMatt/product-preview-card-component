@@ -14,10 +14,6 @@ body {
   height: 100vh;
 }
 
-#desktop-img {
-  display: none;
-}
-
 .card {
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -108,18 +104,15 @@ body {
   }
 }
 @media screen and (min-width: 1024px) {
-  #desktop-img {
-    display: block;
-  }
-  #mobile-img {
-    display: none;
-  }
   .card {
     flex-direction: row;
     width: 635px;
   }
   .card .card__image {
     width: 50%;
+  }
+  .card .card__image img {
+    height: 100%;
   }
   .card .card__info {
     width: 50%;

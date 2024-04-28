@@ -12,11 +12,12 @@
       <title>Frontend Mentor | Product preview card component</title>
    </head>
    <body>
-      <div class="card">
-         <figure class="card__image">
+      <main class="card">
+         <picture class="card__image">
+            <source media="(max-width:1023px)" srcset="images/image-product-mobile.jpg">
+            <source media="(min-width:1024px)" srcset="images/image-product-desktop.jpg">
             <img id="desktop-img" src="images/image-product-desktop.jpg" alt="Product Image" />
-            <img id="mobile-img" src="images/image-product-mobile.jpg" alt="Product Image" />
-         </figure>
+         </picture>
          <section class="card__info">
             <h3 class="card__category">Perfume</h3>
             <h1 class="card__title">Gabrielle Essence Eau De Parfum</h1>
@@ -33,7 +34,7 @@
                Add to Cart
             </button>
          </section>
-      </div>
+      </main>
 
       <div class="attribution">
          Challenge by
