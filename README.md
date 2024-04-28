@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://muliromatt.github.io/product-preview-card-component/)
 
 ## My process
 
